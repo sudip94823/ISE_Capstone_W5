@@ -40,3 +40,6 @@ The basic outline of a ROS-based project is pointed down below:
 
 - Start the camera node, the motion detector node, and the alert node.
 - Call the action server to detect motion and verify that the system works as expected.
+
+
+Note : The above mentioned codes in python files only works if we define `MotionDetectionAction` message type in a file named `MotionDetectionAction.msg` in our package's `msg` folder and a `Alert` service in a file named `Alert.srv` in our package's `srv` folder.
